@@ -1,0 +1,55 @@
+@font-face {
+    src: url(../font/GreatVibes-Regular.ttf);
+    font-family: GreatVibes;
+}
+
+.alpha-slider-caption {
+    background-color: rgba(100,50,0,0.5);
+    padding: 50px 0;
+}
+
+h2 {
+    font-family: GreatVibes;
+}
+
+.bg-wood, .bg-restaurant {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-wood {
+    background-image: url(../img/bg-wood.jpg);
+}
+
+.bg-restaurant {
+    background-image: url(../img/bg-restaurant.jpg);
+}
+
+h2 mark {
+    background-color: rgba(83,192,29,0.7);
+}
+
+#map {
+    border: solid;
+}
+
+.modal {
+    z-index: 100000;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+@media (min-width: 992px) {
+    .text-box {
+        height: 142px;
+        overflow: hidden;
+    }
+}
